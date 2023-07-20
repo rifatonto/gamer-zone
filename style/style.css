@@ -54,9 +54,11 @@
     font-size: 48px;
     font-weight: 600;
     margin: 0;
+    color: #4EC5F7;
 }
 .banner-tittle {
-    color:  #F948B2  ;
+    color:#F948B2;
+    
     font-weight: 800;
     font-size: 95px;
     line-height: normal;
@@ -110,9 +112,13 @@
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
+    color: #4EC5F7;
 }
 .span-funny {
     color: #F948B2 ;
+}
+.span-funny-1 {
+    color: #4EC5F7;
 }
 .various-game {
     display: flex;
@@ -296,6 +302,7 @@
 /* responsive styles */
 
 @media screen and (max-width:576px) {
+   
     .nav-container {
         display:flex;
         flex-direction: column;
@@ -322,4 +329,21 @@
         flex-direction: column;
     }
 
+    .button-contain {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .play-instant-contain {
+        flex-direction: column;
+    }
+
+    .play-games-contain {
+        flex-direction: column;
+    }
+    .careers-container {
+        flex-direction: column;
+    }
+    .careers-container img {
+        width: 100%;
+    }
 }
