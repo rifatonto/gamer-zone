@@ -18,6 +18,11 @@
     list-style: none;
     align-items: center;
     color: #FFF;
+
+}
+.ul-contain a {
+    text-decoration: none;
+    color:#FFF;
 }
 .li-contain {
     border-radius: 8px;
@@ -26,7 +31,7 @@
     text-align: center;
     display: flex;
     gap: 10px;
-    /* margin-bottom: 10px; */
+    
     align-items: center;
 }
 .logo-p {
@@ -56,6 +61,14 @@
     font-size: 95px;
     line-height: normal;
     margin: 0;
+}
+.banner-desc {
+    align-items: center;
+    border-radius: 8px;
+    
+    gap: 10px;
+    
+    
 }
 .btn {
     background-color: #FF42A5;
@@ -105,7 +118,10 @@
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
+    /* position: relative;
+    width: 50%; */
 }
+
 .play-instant-contain {
     display: flex;
     justify-content: space-around;
@@ -185,29 +201,51 @@
     border-radius: 48px;
     background: #FFF;
 }
-.games-types {
+ .button-contain {
+    max-width: 1300px;
+    margin: 0 auto;
+} 
+
+.games-types{
     display: flex;
-    gap: 40px;
-    margin-top: 20px;
+    gap: 10px;
+   margin-top: 10px;
+  
+    flex-wrap: wrap;
 }
 .games-sec-1 {
     display: flex;
     gap: 10px;
+    margin-top: 20px;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    border-radius: 50px;
+    margin-left: 20px;
+    border-radius: 50px; 
+    padding: 5px 5px;
+    align-items: center;
+    
 }
+.games-types .games-sec-1:hover {
+    
+    color:#F948B2;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid #F948B2;
+    border-radius: 50px;
+    
+}
+
 
 .button-contain {
     justify-content: space-around;
-    display: grid;
+    /* display: grid; */
 }
 .footer-logo {
     display: flex;
     align-items: center;
     text-align: center;
-    margin-left: 850px;
+    margin-left: 750px;
     margin-top: 25px;
     font-size: 25px;
     font-style: normal;
@@ -229,17 +267,26 @@
     gap: 30px;
     list-style: none;
     align-items: center;
-    margin-left: 680px;
+    margin-left: 580px;
     color: #FFF;
+    
+}
+.ul-li-contain  a {
+    text-decoration: none;
+    color:#FFF;
 }
 .footer-contain {
     background-color: #341034;
 }
 .footer-img {
     display: inline-flex;
-    margin-left: 720px ;
+    margin-left: 620px ;
     gap: 50px;
     margin-top: 20px;
+}
+.btn-icon {
+    border: none;
+    background: none;
 }
 .footer-small {
     text-align: center;
